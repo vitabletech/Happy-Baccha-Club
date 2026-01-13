@@ -520,7 +520,7 @@
                 return new Date(storedTime);
             }
             const newTime = new Date();
-            newTime.setHours(newTime.getHours() + 6);
+            newTime.setHours(newTime.getHours() + 48);
             localStorage.setItem('offerEndTime', newTime);
             return newTime;
         };
